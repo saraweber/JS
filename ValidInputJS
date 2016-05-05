@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+<script>
+function myFunction(){
+	var x, text;
+	x = document.getElementById("numb").value;  // get the value of the input field
+
+//sets the check for the input data based on the criteria asked of the user
+	if(isNaN(x) || x < 1 || x > 10){
+	text = "Input is not valid";
+	}
+	else{
+	text = "Input OK";
+	}
+
+	document.getElementById("demo").innerHTML = text;
+}
+</script>
+</header>
+
+<body>
+
+<h1>Input Valid Data with JS </h1>
+
+<p> Input a number between 1 and 10: </p>
+<input id="numb">
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id = "demo"></p>
+
+</body>
+
+</html>
