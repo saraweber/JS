@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1> Javascript Button onclick </h1>
+<button type = "button" onclick = "document.getElementById('demo').innerHTML = Date()">
+Click to display Data and Time </button>
+
+<p id="demo"></p>
+</body>
+</html>
