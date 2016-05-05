@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction(){
+	document.getElementById("demo").innerHTML="Post Change";
+}
+</script>
+</head>
+<body>
+<h1> Change inner HTML with button</h1>
+
+<p id ="demo"> Pre Change</p>
+<button type = "button" onclick ="myFunction()">Press to change</button>
+
+</body>
+</html>
