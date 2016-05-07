@@ -1,0 +1,24 @@
+//Javascript statements an be grouped together in code blocks, inside curly brackets
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1> Web page </h1>
+<p id = "myPar"> This is a paragraph </p>
+<div id = "myDiv"> I am a div </div>
+
+<p>
+<button type = "button" onclick="myFunction()"> Try it </button>
+</p>
+
+<script>
+function myFunction(){
+	document.getElementById("myPar").innerHTML = "Hello Sara";
+	document.getElementById("myDiv").innerHTML = "How are you?";
+
+}
+</script>
+
+<p> When you click on the button labeled "Try it", the two elements will change. </p>
+</body>
+</html>
