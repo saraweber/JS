@@ -2,3 +2,7 @@ var length = 16; //number
 var lastName = "johnson"; //string
 var cars = ["saab", "volvo", "BMW"]; // array
 var x = {firstname:"John", lastName= "Doe"}; //Object
+
+
+typeof "John"; //returns a string
+typeof 3.14; //returns a number
