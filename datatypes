@@ -1,0 +1,4 @@
+var length = 16; //number
+var lastName = "johnson"; //string
+var cars = ["saab", "volvo", "BMW"]; // array
+var x = {firstname:"John", lastName= "Doe"}; //Object
