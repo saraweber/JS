@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <p>Math.min() returns the lowest value. and Math.max()
+    returns the highest value</p>
+
+  <button onclick="min()">Min</button>
+<button onclick="max()">Max</button>
+
+<p id = "minimum"></p>
+<p id = "maximum"></p>
+
+
+<script>
+function min(){
+  document.getElementById("minimum").innerHTML=
+  Math.min(0, 150, 20, -8, -200);
+}
+
+function max(){
+  document.getElementById("maximum").innerHTML=
+  Math.max(0, 150, 20, -8, -200);
+}
+
+</script>
+
+</body>
+</html>
